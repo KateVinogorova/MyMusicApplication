@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.example.vinogorova.newdaymusicapp.SongActivity">
+
+    <TextView
+        android:id="@+id/song_name"
+        style="@style/heading"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:background="#902f7f40"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#902f7f40"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/genre"
+        style="@style/author_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#902f7f40"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/rating"
+        style="@style/author_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#902f7f40"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

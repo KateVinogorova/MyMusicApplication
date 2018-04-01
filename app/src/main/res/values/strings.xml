@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Music App</string>
+    <string name="new_releases">New releases</string>
+    <string name="last_liked">Favourite music</string>
+    <string name="load_playlist">Load playlist</string>
+    <string name="friends_music">Friend\'s music</string>
+    <string name="song_details">Song details</string>
+    <string name="main_bottom_text_1">A new day has come</string>
+    <string name="main_bottom_text_2">Start it with the right music</string>
+    <string name="get_file">Open music from device</string>
+    <string name="browse">Load music from external storage</string>
+    <string name="track">track\n</string>
+    <string name="artist">artist\n</string>
+    <string name="genre">genre\n</string>
+    <string name="rate">rate\n</string>
+</resources>
